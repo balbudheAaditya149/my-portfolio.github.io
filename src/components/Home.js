@@ -38,16 +38,16 @@ export default function Home() {
                     <div className='social-icons flex space-x-12'>
                     <ul className='flex space-x-3'>
                         <li className='cursor-pointer transition-all text-blue-400 hover:scale-125 px-1 border border-transparent  hover:rounded-full hover:bg-blue-500 hover:text-white ' >
-                            <i class="fa-brands fa-facebook"></i>
+                            <i className="fa-brands fa-facebook"></i>
                         </li>
                         <li className='cursor-pointer transition-all text-green-500 hover:scale-125 px-1 border border-transparent  hover:rounded-full hover:bg-green-500 hover:text-white '>
-                            <i class="fa-brands fa-whatsapp"></i>
+                            <i className="fa-brands fa-whatsapp"></i>
                         </li>
                         <li className='cursor-pointer transition-all text-red-500 hover:scale-125 px-1 border border-transparent  hover:rounded-full hover:bg-red-500 hover:text-white '>
-                            <i class="fa-brands fa-instagram"></i>
+                            <i className="fa-brands fa-instagram"></i>
                         </li>
                         <li className='cursor-pointer transition-all hover:scale-125 px-1 border border-transparent  hover:rounded-full hover:bg-black hover:text-white '>
-                            <i class="fa-brands fa-github"></i>
+                            <i className="fa-brands fa-github"></i>
                         </li>
                         
                     </ul>
@@ -65,7 +65,7 @@ export default function Home() {
                     <div className='btns my-4'>
                         <button className='px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white font-medium rounded-md focus:ring-4 focus:ring-blue-300 ring-offset-1'>
                             <span>Download CV</span>
-                            <i class="fa-sharp fa-solid fa-download"></i>
+                            <i className="fa-sharp fa-solid fa-download"></i>
                         </button>
                     </div>
                 </div>
