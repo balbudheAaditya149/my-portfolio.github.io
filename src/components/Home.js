@@ -38,7 +38,8 @@ export default function Home() {
                     <div className='social-icons flex space-x-12'>
                     <ul className='flex space-x-3'>
                         <li className='cursor-pointer transition-all text-blue-400 hover:scale-125 px-1 border border-transparent  hover:rounded-full hover:bg-blue-500 hover:text-white ' >
-                            <i className="fa-brands fa-facebook"></i>
+                            <a href='https://www.facebook.com/aditya.balbudhe' rel="noreferrer" target="_blank">
+                            <i className="fa-brands fa-facebook"></i></a>
                         </li>
                         <li className='cursor-pointer transition-all text-green-500 hover:scale-125 px-1 border border-transparent  hover:rounded-full hover:bg-green-500 hover:text-white '>
                             <a href="https://wa.me/919067452349" rel="noreferrer" target="_blank">
