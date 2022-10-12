@@ -41,10 +41,12 @@ export default function Home() {
                             <i className="fa-brands fa-facebook"></i>
                         </li>
                         <li className='cursor-pointer transition-all text-green-500 hover:scale-125 px-1 border border-transparent  hover:rounded-full hover:bg-green-500 hover:text-white '>
-                            <i className="fa-brands fa-whatsapp"></i>
+                            <a href="https://wa.me/919067452349" rel="noreferrer" target="_blank">
+                            <i className="fa-brands fa-whatsapp"></i></a>
                         </li>
                         <li className='cursor-pointer transition-all text-red-500 hover:scale-125 px-1 border border-transparent  hover:rounded-full hover:bg-red-500 hover:text-white '>
-                            <i className="fa-brands fa-instagram"></i>
+                            <a href='https://www.instagram.com/aditya__balbudhe2001/' rel="noreferrer" target="_blank">
+                            <i className="fa-brands fa-instagram"></i></a>
                         </li>
                         <li className='cursor-pointer transition-all hover:scale-125 px-1 border border-transparent  hover:rounded-full hover:bg-black hover:text-white '>
                             <i className="fa-brands fa-github"></i>
@@ -59,10 +61,10 @@ export default function Home() {
                         <span className='block text-2xl sm:text-3xl font-medium  text-orange-500 '>I'm</span>
                         <h1 className='text-2xl sm:text-3xl font-medium text-orange-500 my-3' ><span className='text-green-500' ref={el}></span> </h1>
                     </div>
-                    <p>
+                    <p className='md:text-left text-center'>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis possimus vero ea deleniti corrupti qui, officia ut nostrum harum fugit ducimus doloremque.
                     </p>
-                    <div className='btns my-4'>
+                    <div className='btns my-4 flex md:justify-start justify-center'>
                         <button className='px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white font-medium rounded-md focus:ring-4 focus:ring-blue-300 ring-offset-1'>
                             <span>Download CV</span>
                             <i className="fa-sharp fa-solid fa-download"></i>

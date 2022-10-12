@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#nav{
+    z-index: 99999;
+}
+
+.card img{
+    height: 167px;
+}
+
+.card h3, p, div{
+    margin: 9px 0;
+    text-align: center;
+}

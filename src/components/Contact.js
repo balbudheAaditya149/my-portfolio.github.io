@@ -3,12 +3,12 @@ import React from 'react'
 export default function Contact() {
   return (
     <>
-        <div className='contact py-20 mx-2'>
+        <div className='contact py-20 mx-2 z-10'>
             <h2 className='text-3xl font-semibold text-center'>Contact me</h2>
 
-            <div id="contact" className="section-6 py-4 my-20">
-        <h2 className="text-center font-semibold text-2xl my-3 uppercase text-red-500">Contact Us</h2>
-        <div className="content bg-[#fff] border-red-500  pt-5 pr-[60px] pb-10 pl-10 flex justify-center items-center flex-col-reverse lg:flex-row">
+            <div id="contact" className="section-6 py-4 ">
+        {/* <h2 className="text-center font-semibold text-2xl my-3 uppercase text-red-500">Contact Us</h2> */}
+        <div className="content bg-[#fff] border-red-500  pt-5 md:pr-[60px] pb-10 md:pl-10 flex justify-center items-center flex-col-reverse lg:flex-row">
           <div className="left lg:w-[25%] h-[100%] text-center flex flex-col sm:flex-row lg:flex-col md:w-full justify-evenly relative">
             <div className="address details m-4">
               <i className="fa-solid fa-location-dot text-3xl text-[#3e2093]"></i>
